@@ -24,8 +24,8 @@ Before you begin, ensure you have met the following requirements:
 
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/AhmedGaberElbltagy/Deploy-Microservices-Application-into-Kubernetes-Cluster.git
-cd Deploy-Microservices-Application-into-Kubernetes-Cluster
+- git clone https://github.com/AhmedGaberElbltagy/Deploy-Microservices-Application-into-Kubernetes-Cluster.git
+- cd Deploy-Microservices-Application-into-Kubernetes-Cluster
 
 ## Build Docker Images
 - docker build -t <image-name>:<tag> .
