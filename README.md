@@ -26,3 +26,18 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/AhmedGaberElbltagy/Deploy-Microservices-Application-into-Kubernetes-Cluster.git
 cd Deploy-Microservices-Application-into-Kubernetes-Cluster
+
+## Build Docker Images
+- docker build -t <image-name>:<tag> .
+
+## Apply Kubernetes Manifests
+- kubectl apply -f k8s/
+
+## Verify Deployment
+- kubectl get pods
+- kubectl get services 
+
+## Contact
+
+- Feel free to modify this text as needed for your project. If there are additional details or sections you'd like to include, just let me know!
+linkedIn Profile for any help : https://www.linkedin.com/in/ahmedgaberelbltagy/
