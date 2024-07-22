@@ -1,0 +1,8 @@
+$ minikube service frontend
+$ kubectl describe service frontend
+kubectl get pods
+kubectl get svc 
+$ kubectl auth can-i create endpointslices --as kubernetes
+no
+kubectl delete pods --all --all-namespaces
+minikube service list
